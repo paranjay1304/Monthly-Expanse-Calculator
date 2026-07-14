@@ -5,10 +5,9 @@ A lightweight, terminal-based financial assistant written in C. Unlike basic log
 
 ## 🚀 Key Features
 * **Dynamic Budget Tracking:** Set a monthly allowance and log expenses across custom categories (Food, Transport, Entertainment, etc.).
-* **Smart Financial Forecasting:** Computes your daily burn rate ($ \text{Daily Average} = \frac{\text{Total Spent}}{\text{Current Day}} $) to project total monthly expenditure.
+* **Smart Financial Forecasting:** Computes your daily burn rate to project total monthly expenditure.
 * **Proactive Alerts:** Automatically warns the user if their current spending trajectory will breach their budget, calculating the exact day they risk running out of funds.
 * **Interactive CLI Menu:** A clean, loop-driven command-line interface for easy navigation.
-* *[Optional: Add this if you implemented saving files]* **Persistent Storage:** Saves and loads transactional data via File I/O using `.txt`/`.csv` files.
 
 ## 🛠️ Concepts & Skills Practiced
 * **Data Structuring:** Utilized C structures (`struct`) to group complex expense datasets.
